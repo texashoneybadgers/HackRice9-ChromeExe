@@ -1,0 +1,13 @@
+{
+	"manifest_version": 2, 
+	"name": "Second Best",
+	"version": "0.1",
+  	"browser_action": {
+  		"default_title": "Sample Extension",
+    	"default_icon": "logo.png",
+    	"default_popup": "popup.html"
+  	}, 
+  	"permissions": [
+  		"activeTab"
+  	]
+}
